@@ -3,9 +3,12 @@
   box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.1);
   /* width: calc(100% - 2rem);
   max-width: 33.75rem; */
-  width: min(100% - 2rem, 33.75rem);
+  width: min(calc(100% - 2rem), 33.75rem);
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 4rem;
+  /* padding: 2.5rem 1.5rem 4rem; */
+  padding-inline: 1.5rem;
+  padding-block-start: 2.5rem;
+  padding-block-end: 4rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;

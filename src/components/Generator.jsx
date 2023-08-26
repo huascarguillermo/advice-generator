@@ -5,9 +5,13 @@ function Generator({ advice, newAdvice, setNewAdvice }) {
     <div className={style.card}>
       <h1 className={style.tittle}>advice #{advice.id}</h1>
       <p className={style.text}>{advice.advice}</p>
-      <div>
-        <img src="images/pattern-divider-mobile.svg" alt="" />
-      </div>
+      <picture>
+        <source
+          srcSet="images/pattern-divider-desktop.svg"
+          media="(min-width: 500px)"
+        />
+        <img src="images/pattern-divider-mobile.svg" alt="Pattern Divider" />
+      </picture>
 
       <button onClick={() => setNewAdvice(!newAdvice)} className={style.button}>
         <svg
