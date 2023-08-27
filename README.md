@@ -35,6 +35,10 @@ Users should be able to:
 
 ![Mobile Screenshot](./design/mobile-screenshot.png)
 
+#### Report with Lighthouse
+
+![Report](./design/website-performance.png)
+
 ### Links
 
 - Repository URL: [Click here!](https://github.com/huascarguillermo/advice-generator)
