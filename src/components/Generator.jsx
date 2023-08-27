@@ -4,7 +4,7 @@ function Generator({ advice, newAdvice, setNewAdvice }) {
   return (
     <div className={style.card}>
       <h1 className={style.tittle}>advice #{advice.id}</h1>
-      <p className={style.text}>{advice.advice}</p>
+      <p className={style.text}>“{advice.advice}”</p>
       <picture>
         <source
           srcSet="images/pattern-divider-desktop.svg"
